@@ -976,3 +976,150 @@ button:hover {
     font-size: 14px;
     margin: 6px 0;
 }
+
+@media (min-width: 1200px) {
+  .project-card {
+    width: 900px;
+  }
+
+  .skills-card {
+    width: 420px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .project-card {
+    width: 90%;
+  }
+
+  .exp-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .intro {
+    font-size: 28px;
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .project-img,
+  .project-content {
+    width: 100%;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-card {
+    width: 90%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .line1 {
+    font-size: 2rem;
+  }
+
+  .line2 {
+    font-size: 1.2rem;
+  }
+
+  .line3 {
+    font-size: 1rem;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .edu-container {
+    grid-template-columns: 1fr;
+  }
+
+  .ach-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .intro h3 {
+    white-space: normal;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 80%;
+    text-align: center;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+
+  .exp-card,
+  .ach-card,
+  .contact-info,
+  .contact-form {
+    width: 95%;
+  }
+
+  .footer-socials {
+    flex-wrap: wrap;
+  }
+}
