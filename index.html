@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo" class="logo">
+        </div>
+        <nav id="navbar">
+            <a href="#home"class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills </a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <div class="indicator" id="indicator"></div>
+        </nav>
+    </div>
+    <div class="intro" id="home">
+        <img src="profile.png" alt="Profile Picture" class="profile-pic">
+        <h3 class="line1">Ayush Bhattarai</h3>
+        <h3 class="line2">IT Student | Web Developer</h3>
+        <h3 class="line3">Turning ideas into interactive web solutions</h3>
+        <div class="buttons">
+            <a href="#" class="btn-primary">Download CV</a>
+            <a href="#projects" class="btn-secondary">View Projects  </a>
+        </div>
+    </div> 
+    <div class="about" id="about">
+        <h2 id="aboutme">About Me</h2>
+    </div>
+    <div class="desc">
+        <h3 id="description">Passionate BIT student and aspiring web developer focused on building modern, responsive,
+            and user-friendly websites. I enjoy learning new technologies, solving problems, and transforming ideas into
+            practical digital solutions.</h3>
+    </div>
+    <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="edu-container">
+
+            <div class="edu-card">
+                <div class="edu-icon">🎓</div>
+                <h3>BIT (Bachelor in Information Technology)</h3>
+                <p class="edu-place">Bhairahawa Multiple Campus</p>
+                <p class="edu-year">2081 – Present (4th sem)</p>
+                <!-- <span class="edu-tag">Web Development • Programming</span> -->
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-icon">🏫</div>
+                <h3>+2 / SLC Management (Computer)</h3>
+                <p class="edu-place">Kalika Manavgyan Secondary School</p>
+                <p class="edu-year">2079 – 2081</p>
+                <!-- <span class="edu-tag">Computer Science Stream</span> -->
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-icon">📘</div>
+                <h3>SEE (Opt Maths + Computer)</h3>
+                <p class="edu-place">Kalika Manavgyan Secondary School</p>
+                <p class="edu-year">2078</p>
+                <!-- <span class="edu-tag">Basic Education</span> -->
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <!-- TECHNICAL -->
+            <div class="skills-card">
+
+                <h3>Technical Skills</h3>
+
+                <div class="skill">
+                    <div class="skill-top">
+                        <span><i class="devicon-html5-plain colored"></i> HTML</span>
+                        <span class="count" data-target="90">0%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-top">
+                        <span><i class="devicon-css3-plain colored"></i> CSS</span>
+                        <span class="count" data-target="90">0%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-top">
+                        <span><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                        <span class="count" data-target="75">0%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-top">
+                        <span><i class="devicon-github-original"></i> GitHub</span>
+                        <span class="count" data-target="80">0%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="80"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SOFT SKILLS -->
+            <div class="skills-card soft">
+
+                <h3>Soft Skills</h3>
+
+                <div class="badges">
+                    <span>Teamwork</span>
+                    <span>Problem Solving</span>
+                    <span>Communication</span>
+                    <span>Time Management</span>
+                    <span>Adaptability</span>
+                    <span>Creativity</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- FEATURED PROJECT -->
+            <div class="project-card featured">
+
+                <div class="project-img">
+                    <img src="s2s.png" alt="S2S Consultant Website">
+                </div>
+
+                <div class="project-content">
+                    <span class="tag">⭐ Featured Project</span>
+                    <h3>S2S Consultant Website</h3>
+                    <p>
+                        A professional business consulting website built for a real-world use case.
+                        Focused on clean UI, responsiveness, and modern design.
+                    </p>
+
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://s2s-brown.vercel.app" target="_blank" class="btn">Live Demo</a>
+                        <a href="https://github.com/ayush-bhattarai32/s2s" target="_blank"
+                            class="btn outline">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PORTFOLIO PROJECT -->
+            <div class="project-card">
+
+                <div class="project-img">
+                    <img src="portfolio.png" alt="Portfolio Website">
+                </div>
+
+                <div class="project-content">
+                    <span class="tag">Personal Project</span>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        My personal developer portfolio showcasing skills, education, and projects
+                        with a modern dark UI and animations.
+                    </p>
+
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn outline">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="exp-container">
+
+            <div class="exp-card">
+
+                <div class="exp-header">
+                    <h3>Web Developer / IT Coordinator / Instructor</h3>
+                    <span class="company">S2S Consultant and Technical Education Center</span>
+                    <span class="duration">2024 – Present</span>
+                </div>
+
+                <p class="exp-summary">
+                    Responsible for web development, technical management, and training students in basic computer
+                    skills.
+                </p>
+
+                <ul class="exp-list">
+                    <li>Developed and maintained the organization’s website using modern web technologies.</li>
+                    <li>Managed technical and digital activities of the organization.</li>
+                    <li>Conducted basic computer courses (computer fundamentals, internet usage, productivity tools).
+                    </li>
+                    <li>Guided students in improving their digital and technical skills.</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="achievements" id="achievements">
+        <h2 class="section-title">Achievements & Learning</h2>
+
+        <div class="ach-container">
+
+            <!-- CURRENTLY LEARNING -->
+            <div class="ach-card learning">
+
+                <h3>🚧 Currently Learning</h3>
+
+                <div class="ach-item">
+                    <span class="title">Web Design Course</span>
+                    <span class="status">In Progress</span>
+                </div>
+
+                <p>
+                    Enrolled in a Web Design course at Code IT to strengthen UI/UX and frontend development skills.
+                    Certificate will be earned upon completion.
+                </p>
+
+            </div>
+
+            <!-- FUTURE GOAL -->
+            <div class="ach-card goal">
+
+                <h3>🎯 Future Goal</h3>
+
+                <ul>
+                    <li>Complete Web Design Certification</li>
+                    <li>Build more real-world freelance projects</li>
+                    <li>Participate in web development hackathons</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container">
+
+            <!-- LEFT SIDE -->
+            <div class="contact-info">
+
+                <h3>Let’s Connect 👋</h3>
+                <p>
+                    Feel free to reach out for freelance work, collaboration, or opportunities.
+                </p>
+
+                
+
+                <div class="socials">
+                    <a class="icon mail"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=bhattaraiayush777@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>bhattaraiayush777@gmail.com</span>
+                    </a>
+
+                    <a href="https://github.com/ayush-bhattarai32" target="_blank" class="icon github">
+                        <i class="fa-brands fa-github"></i>
+                        <span>github.com/ayush-bhattarai32</span>
+                    </a>
+
+                    <a href="https://linkedin.com/in/ayush-bhattarai32" target="_blank" class="icon linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>linkedin.com/in/ayush-bhattarai32</span>
+                    </a>
+
+                    <!-- <a href="#" target="_blank" class="icon instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Ayush Bhattarai</span>
+                    </a> -->
+
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE (FORM) -->
+            <form class="contact-form">
+
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Your Name</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Your Email</label>
+                </div>
+
+                <div class="input-box">
+                    <textarea required></textarea>
+                    <label>Your Message</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+    </section>
+    <footer class="footer">
+
+    <div class="footer-content">
+
+        <h3>Ayush Bhattarai</h3>
+
+        <p class="footer-tagline">
+             Aspiring Web Developer 
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/ayush-bhattarai32" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/ayush-bhattarai32" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <!-- <a href="#" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a> -->
+
+        </div>
+
+        <p class="footer-status">
+         
+        </p>
+
+        <div class="footer-bottom">
+            <p>Built By Ayush Bhattarai</p>
+            <!-- <p>Built with ❤️ using HTML, CSS & JavaScript</p> -->
+        </div>
+
+    </div>
+
+</footer>
+    <script>
+        const navbar = document.getElementById('navbar');
+        const indicator = document.getElementById('indicator');
+        const links = navbar.querySelectorAll('a');
+
+        function moveIndicator(el) {
+            const navRect = navbar.getBoundingClientRect();
+            const elRect = el.getBoundingClientRect();
+            indicator.style.left = (elRect.left - navRect.left) + 'px';
+            indicator.style.width = elRect.width + 'px';
+        }
+
+        function setActive(el) {
+            links.forEach(a => a.classList.remove('active'));
+            el.classList.add('active');
+            moveIndicator(el);
+        }
+
+        links.forEach(link => {
+            link.addEventListener('mouseenter', () => moveIndicator(link));
+            link.addEventListener('click', (e) => {
+                // e.preventDefault();
+                setActive(link);
+            });
+        });
+
+        navbar.addEventListener('mouseleave', () => {
+            const active = navbar.querySelector('a.active');
+            if (active) moveIndicator(active);
+        });
+
+        // Init on load
+        window.addEventListener('load', () => {
+            const active = navbar.querySelector('a.active');
+            if (active) moveIndicator(active);
+        });
+
+        const counters = document.querySelectorAll('.count');
+        const fills = document.querySelectorAll('.fill');
+
+        const animateSkills = () => {
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                let count = 0;
+
+                const update = () => {
+                    if (count < target) {
+                        count++;
+                        counter.innerText = count + "%";
+                        requestAnimationFrame(update);
+                    }
+                };
+
+                update();
+            });
+
+            fills.forEach(fill => {
+                const width = fill.getAttribute('data-width');
+                fill.style.width = width + "%";
+            });
+        };
+
+        window.addEventListener('load', animateSkills);
+    </script>
+</body>
+
+</html>
